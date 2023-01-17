@@ -167,6 +167,7 @@ def test_else_return1():
     # finally:
     #     print(6)
         #return 7
+print("test3")
 
 def test_else_return2():
     try:
@@ -201,4 +202,4 @@ if __name__ == '__main__':
     print(test_else_return2())
     
     print("test")
-    
+    print("test1")
