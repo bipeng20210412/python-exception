@@ -186,12 +186,16 @@ def test_else_return2():
 if __name__ == '__main__':
     print('测试1')
     print(test_finally_return1())
+
     print('测试2')
     print(test_finally_return2())
+
     print('测试3')
     print(test_else_finally1())
+
     print('测试4')
     print(test_else_finally2())
+
     print('测试5')
     print(test_else_finally3())
 
@@ -200,10 +204,5 @@ if __name__ == '__main__':
 
     print('测试7')
     print(test_else_return2())
-    print("latest update")
-    
-    
-    
-    
-    
+   
     
