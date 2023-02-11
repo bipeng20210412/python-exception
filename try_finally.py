@@ -204,6 +204,38 @@ if __name__ == '__main__':
     print(test_else_return2())
     
     
+
+"""
+date:2023-02-11
+time:19:15
+author:bipeng
+"""
+
+def func():
+    for i in range(3):
+
+        try:
+            1 / 0
+
+        except ValueError:
+            print("Exception")
+        else:
+            print("hello")
+
+        finally:
+            print("finally")
+            continue
+            # break
+            # return "wrold"
+
+
+
+func()
+
+"""
+finally里如果有break,continue,return 。则不会抛出异常。
+"""
+
     
    
     
